@@ -35,7 +35,7 @@ There are four components to SrvStart.
    It is a mandatory component.
 1. **Logger**. This is a DLL that SrvStart uses to log error messages.
    It is a mandatory component.
-1. **MSVCRT.DLL**. This is the Microsoft Visual C++ runtime.
+1. **`MSVCRT.DLL`**. This is the Microsoft Visual C++ runtime.
    It is an old version that worked with my programs.
    You may be able to use a newer version.
 1. **`SVC.EXE`**. This is a program that you can use to install services.
@@ -59,7 +59,7 @@ This repository contains the following artefacts for each component:
 Full  instructions are given in the SrvStart FAQ (`srvstart/doc/services-faq.pdf`).
 
 ## Documentation
-Detailed program and API documentation can be found in (`srvstart/doc/services.pdf`)
+Detailed program and API documentation can be found in `srvstart/doc/services.pdf`.
 
 # Rebuilding the Software
 You don't need to build the software to use it - you should be able to install the existing software components as described in the FAQ.
