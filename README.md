@@ -2,6 +2,10 @@
 This repository contains the legacy code I wrote for SrvStart in 2000, along with some related software.
 SrvStart allows you to run an ordinary Windows executable as a Windows service.
 
+I am indebted to Sridhar Boovaraghavan <sridhar_ml@yahoo.com> for producing versions of SrvStart
+and Logger which are compatible with Visual Studio 2017 Community Edition. They are functionally equivalent to
+the original versions (see below for more details).
+
 # Help and Support
 I no longer provide support for SrvStart -
 I am a [software architect](https://www.viewpoints-and-perspectives.info) these days.
@@ -64,11 +68,17 @@ Detailed program and API documentation can be found in `srvstart/doc/services.pd
 # Rebuilding the Software
 You don't need to build the software to use it - you should be able to install the existing software components as described in the FAQ.
 
-I don't think the software will build in modern versions of Visual C++ without modification.
-If you want to make any changes to it, you will need to set up your own build environment.
+If you want to modify and rebuild the software, you need to use the following files which are compatible with Visual  2017 Community edition:
+
+1. **SrvStart**:  `srvstart/srvstart.v120.zip`
+1. **Logger**: `logger/logger.v220.zip`
+
+I am indebted to Sridhar Boovaraghavan <sridhar_ml@yahoo.com> for producing these files.
+They are functionally equivalent to my original version of SrvStart and Logger.
 
 # Licence and Warranty
 SrvStart, Logger and `SVC.EXE` are all Copyright (C) 1998 - 2018 Nick Rozanski.
+The new (VS2017) versions of SrvStart and Logger are Copyright (C) 2018 Nick Rozanski and Sridhar Boovaraghavan.
 
 The software is Free software.
 You can redistribute it and/or modify it, under the terms of the GNU Lesser General Public License, as published by the Free Software Foundation);
