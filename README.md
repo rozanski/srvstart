@@ -2,7 +2,7 @@
 This repository contains the legacy code I wrote for SrvStart in 2000, along with some related software.
 SrvStart allows you to run an ordinary Windows executable as a Windows service.
 
-I am indebted to Sridhar Boovaraghavan <sridhar_ml@yahoo.com> for producing versions of SrvStart
+I am indebted to Sridhar Boovaraghavan (<sridhar_ml@yahoo.com>) for producing versions of SrvStart
 and Logger which are compatible with Visual Studio 2017 Community Edition. They are functionally equivalent to
 the original versions (see below for more details).
 
@@ -73,7 +73,7 @@ If you want to modify and rebuild the software, you need to use the following fi
 1. **SrvStart**:  `srvstart/srvstart.v120.zip`
 1. **Logger**: `logger/logger.v220.zip`
 
-I am indebted to Sridhar Boovaraghavan <sridhar_ml@yahoo.com> for producing these files.
+I am indebted to Sridhar Boovaraghavan (<sridhar_ml@yahoo.com>) for producing these files.
 They are functionally equivalent to my original version of SrvStart and Logger.
 
 # Licence and Warranty
